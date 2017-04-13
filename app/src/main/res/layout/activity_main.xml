@@ -28,43 +28,46 @@
         android:layout_marginTop="18dp"
         android:background="?android:attr/colorAccent"
         android:onClick="sound1"
-        android:text="Jaffat tulloo" />
+        android:text="Jaffat tulloo"
+        tools:background="@android:color/darker_gray" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:layout_centerVertical="true"
         android:background="?android:attr/colorAccent"
         android:onClick="sound3"
         android:text="Palvia pittää saada"
-        android:layout_alignBaseline="@+id/button3"
-        android:layout_alignBottom="@+id/button3"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        tools:background="@android:color/darker_gray" />
 
     <Button
         android:id="@+id/button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button"
+        android:layout_alignStart="@+id/button"
+        android:layout_below="@+id/button"
         android:layout_marginTop="29dp"
         android:background="?android:attr/colorAccent"
         android:onClick="sound2"
         android:text="Kossu pullo vaihtunut"
-        android:layout_below="@+id/button"
-        android:layout_alignLeft="@+id/button"
-        android:layout_alignStart="@+id/button" />
+        tools:background="@android:color/darker_gray" />
 
     <Button
         android:id="@+id/button4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button3"
+        android:layout_alignStart="@+id/button3"
+        android:layout_below="@+id/button3"
+        android:layout_marginTop="25dp"
         android:background="?android:attr/colorAccent"
         android:onClick="sound4"
         android:text="Välillä juotava miedompia"
-        android:layout_alignBaseline="@+id/button"
-        android:layout_alignBottom="@+id/button"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        tools:background="@android:color/darker_gray" />
 
     <TextView
         android:id="@+id/textView"
@@ -80,6 +83,6 @@
         android:textColor="@android:color/background_dark"
         android:textSize="30sp"
         android:textStyle="bold"
-        tools:background="@color/colorAccent"
+        tools:background="@android:color/darker_gray"
         tools:text="Palavi saund boord" />
 </RelativeLayout>
